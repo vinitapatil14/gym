@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#141613" />
+    <meta name="description" content="Northline is a training club built for real life. Find your class, meet your coaches, and book a free first session." />
+    <title>Northline — Find your strong</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Northline home"><span class="brand-mark">N<span>+</span></span><span class="brand-name">NORTHLINE<small>TRAINING CLUB</small></span></a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#training">Training</a>
+        <a href="#schedule">Class schedule</a>
+        <a href="#membership">Membership</a>
+        <a class="header-cta" href="#start">Try us free <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEIGHBORHOOD TRAINING CLUB</div>
+          <h1>FIND YOUR<br /><span>STRONG.</span></h1>
+          <p>Good training. Great people. A space to show up exactly as you are—and leave feeling like more.</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#start">Get your free session <span>↗</span></a>
+            <a class="play-link" href="#training"><span class="play-icon">↓</span> TAKE A LOOK AROUND</a>
+          </div>
+          <div class="hero-note"><span class="note-plus">+</span><span>NO EGOS.<br /><b>JUST PROGRESS.</b></span></div>
+        </div>
+        <div class="hero-bottom"><span>EST. 2018 · BROOKLYN, NY</span><span>40°41' N&nbsp;&nbsp; 73°59' W</span></div>
+        <div class="hero-number">01<span> / 04</span></div>
+      </section>
+
+      <section class="ticker" aria-label="Club motto">
+        <div class="ticker-track" aria-hidden="true">
+          <span>SHOW UP</span><b>✳</b><span>GET STRONGER</span><b>✳</b><span>FEEL GOOD</span><b>✳</b><span>SHOW UP</span><b>✳</b><span>GET STRONGER</span><b>✳</b><span>FEEL GOOD</span><b>✳</b>
+        </div>
+      </section>
+
+      <section class="training section" id="training">
+        <div class="section-top">
+          <div>
+            <div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> TRAIN FOR YOUR LIFE</div>
+            <h2>More than<br />a <span>workout.</span></h2>
+          </div>
+          <p class="section-intro">Big energy, good coaching, zero pressure to be anyone but you. Find your thing, then make it your own.</p>
+        </div>
+        <div class="program-grid">
+          <a class="program-card program-strength" href="#schedule">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=85" alt="Athlete training with free weights" loading="lazy" />
+            <div class="program-number">01</div><div class="program-content"><span>BUILD A BASE</span><h3>STRENGTH</h3><span class="program-arrow">↗</span></div>
+          </a>
+          <a class="program-card program-conditioning" href="#schedule">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85" alt="Northline gym floor and training equipment" loading="lazy" />
+            <div class="program-number">02</div><div class="program-content"><span>FIND YOUR PACE</span><h3>CONDITIONING</h3><span class="program-arrow">↗</span></div>
+          </a>
+          <a class="program-card program-mobility" href="#schedule">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=85" alt="Member stretching after a training session" loading="lazy" />
+            <div class="program-number">03</div><div class="program-content"><span>MOVE WITH EASE</span><h3>MOBILITY</h3><span class="program-arrow">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="manifesto">
+        <div class="manifesto-bg"></div>
+        <div class="manifesto-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> THE NORTHLINE WAY</div>
+          <h2>Progress isn’t<br />a straight <span>line.</span></h2>
+          <p>Some days you lift heavier. Some days you just walk through the door. We think both count. Our coaches meet you where you are, help you find your next step, and cheer you on all the way there.</p>
+          <a class="text-link light-link" href="#start">Find your people <span>↗</span></a>
+        </div>
+        <div class="manifesto-stamp">BETTER<br />TOGETHER<span>✳</span></div>
+      </section>
+
+      <section class="schedule section" id="schedule">
+        <div class="section-top schedule-top">
+          <div>
+            <div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> THIS WEEK AT NORTHLINE</div>
+            <h2>Make a little<br /><span>time for you.</span></h2>
+          </div>
+          <p class="section-intro">Small group classes, expert coaches, and room to move at your own pace. Pick a day and find your session.</p>
+        </div>
+        <div class="schedule-board">
+          <div class="day-tabs" role="tablist" aria-label="Class schedule day">
+            <button class="day-tab active" role="tab" aria-selected="true" data-day="mon">MON <small>18</small></button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="tue">TUE <small>19</small></button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="wed">WED <small>20</small></button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="thu">THU <small>21</small></button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="fri">FRI <small>22</small></button>
+            <button class="day-tab" role="tab" aria-selected="false" data-day="sat">SAT <small>23</small></button>
+          </div>
+          <div class="class-list" aria-live="polite"></div>
+          <div class="schedule-foot"><span>ALL LEVELS WELCOME · ARRIVE 10 MINUTES EARLY</span><a href="#start">SEE YOU IN CLASS ↗</a></div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat"><strong>01<span>:</span>01</strong><small>COACHING THAT MEETS YOU WHERE YOU ARE</small></div>
+        <div class="stat"><strong>12</strong><small>PEOPLE MAX IN EVERY CLASS</small></div>
+        <div class="stat"><strong>0<span>%</span></strong><small>PRESSURE TO BE ANYTHING BUT YOU</small></div>
+        <div class="stat"><strong>100<span>%</span></strong><small>GOOD PEOPLE, EVERY SESSION</small></div>
+      </section>
+
+      <section class="membership section" id="membership">
+        <div class="section-top">
+          <div>
+            <div class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> YOUR CLUB, YOUR WAY</div>
+            <h2>Good things<br />come in <span>sets.</span></h2>
+          </div>
+          <p class="section-intro">Start with one session, find your rhythm, and make this place your own. No complicated contracts. Just good training.</p>
+        </div>
+        <div class="plans">
+          <article class="plan-card">
+            <div class="plan-tag">DROP IN</div><h3>The day pass</h3><p class="plan-desc">Just here for the day? There’s a spot for you.</p>
+            <div class="price">$24 <small>/ visit</small></div>
+            <ul><li>Any group class</li><li>Full gym access for the day</li><li>Meet the crew</li></ul>
+            <a href="#start" class="plan-link">Come on in <span>↗</span></a>
+          </article>
+          <article class="plan-card plan-featured">
+            <div class="plan-tag">MEMBERS’ FAVE <span>✳</span></div><h3>The regular</h3><p class="plan-desc">Your new favorite part of the week.</p>
+            <div class="price">$89 <small>/ month</small></div>
+            <ul><li>8 classes every month</li><li>Open gym, whenever you like</li><li>Pause or cancel anytime</li></ul>
+            <a href="#start" class="plan-link">This feels right <span>↗</span></a>
+          </article>
+          <article class="plan-card">
+            <div class="plan-tag">ALL IN</div><h3>The everydayer</h3><p class="plan-desc">For when the club feels like your place.</p>
+            <div class="price">$139 <small>/ month</small></div>
+            <ul><li>Unlimited group classes</li><li>Open gym, whenever you like</li><li>Bring a friend once a month</li></ul>
+            <a href="#start" class="plan-link">Let’s do this <span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="start-section" id="start">
+        <div class="start-image"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=85" alt="The Northline training floor" loading="lazy" /><div class="start-image-label">GOOD ENERGY LIVES HERE <span>↗</span></div></div>
+        <div class="start-panel">
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR FIRST ONE’S ON US</div>
+          <h2>Come as<br />you <span>are.</span></h2>
+          <p>Book a free intro session. Meet a coach, see the space, and find out if Northline feels like your kind of place.</p>
+          <form class="trial-form">
+            <label for="trial-name">What should we call you?</label>
+            <input id="trial-name" name="name" autocomplete="name" placeholder="Your name" required />
+            <label for="trial-email">Where can we reach you?</label>
+            <input id="trial-email" name="email" type="email" autocomplete="email" placeholder="Your email address" required />
+            <label for="trial-interest">What are you curious about?</label>
+            <select id="trial-interest" name="interest" required>
+              <option value="" disabled selected>Pick what sounds good</option>
+              <option>Strength training</option><option>Conditioning</option><option>Mobility</option><option>I’m not sure yet</option>
+            </select>
+            <button class="button button-lime" type="submit">Save me a spot <span>↗</span></button>
+            <p class="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="visit-strip">
+        <div class="visit-title"><span class="eyebrow dark-eyebrow">YOUR NEW HAPPY PLACE</span><strong>Right around the corner.</strong></div>
+        <div><small>FIND THE CLUB</small><span>48 Wythe Avenue, Brooklyn, NY</span></div>
+        <div><small>WHEN WE’RE OPEN</small><span>Weekdays 6am–9pm · Weekends 8am–4pm</span></div>
+        <a href="https://maps.google.com/?q=48+Wythe+Avenue+Brooklyn+NY" target="_blank" rel="noreferrer">GET DIRECTIONS ↗</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <a class="brand footer-brand" href="#top"><span class="brand-mark">N<span>+</span></span><span class="brand-name">NORTHLINE<small>TRAINING CLUB</small></span></a>
+        <p>Come for the training.<br />Stay for the people.</p>
+        <a class="social-link" href="https://instagram.com" target="_blank" rel="noreferrer">FOLLOW ALONG <span>↗</span></a>
+      </div>
+      <div class="footer-bottom"><span>© 2025 NORTHLINE TRAINING CLUB</span><span>SHOW UP. GET STRONGER. FEEL GOOD.</span><a href="#top">BACK TO TOP ↑</a></div>
+    </footer>
+  </body>
+</html>
